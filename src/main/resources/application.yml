@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: openshift-configmap-volumes-demo
+
+logging:
+  level:
+    root: INFO
+
+nara:
+  test:
+    value: This is my test Nara Test Simha
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
